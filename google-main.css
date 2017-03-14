@@ -1,0 +1,74 @@
+body {
+	width: 90%; /* zmienić na stałą wartość */
+	margin: auto;
+}
+.header,
+.navigation-bar {
+	width: 100%;
+	margin: auto;
+}
+
+.header {
+	position: relative;
+	height: 300px;
+	background-color: rgb(104, 242, 206);
+}
+
+.settings-icon,
+.application-icon,
+.account-icon,
+.navigation-button,
+.main-content .search-results,
+.main-content .short-info {
+	display: inline-block;
+}
+
+.main-content {
+	border: 3px solid black;
+	width: 80%;
+	margin: auto;
+}
+
+.main-content .search-results,
+.main-content .short-info {
+	border: 1px solid red;
+	width: 45%;
+	margin: auto;
+}
+
+.main-content .search-results div,
+.main-content .short-info .a  {
+	border: 1px solid blue;
+	width: 80%;
+	margin: auto;
+}
+
+.settings-icon,
+.application-icon,
+.account-icon {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.settings-bar {
+	position: absolute;
+	right: 5%;
+}
+
+.search {
+	position: absolute;
+	bottom: 25%;
+	left: 15%;
+}
+
+.navigation-bar {
+	height: 50px;
+	background-color: rgb(33, 39, 107);
+	position: absolute;
+	bottom: 0%;
+}
+
+.navigation-button a {
+	text-decoration: none;
+	color: white;
+}
