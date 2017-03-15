@@ -1,6 +1,7 @@
 body {
-	width: 90%; /* zmienić na stałą wartość */
+	width: 1400px;
 	margin: auto;
+	font-family: Arial;
 }
 .header,
 .navigation-bar {
@@ -19,28 +20,10 @@ body {
 .account-icon,
 .navigation-button,
 .main-content .search-results,
-.main-content .short-info {
+.main-content .short-info,
+.results-amount,
+.results-amount p {
 	display: inline-block;
-}
-
-.main-content {
-	border: 3px solid black;
-	width: 80%;
-	margin: auto;
-}
-
-.main-content .search-results,
-.main-content .short-info {
-	border: 1px solid red;
-	width: 45%;
-	margin: auto;
-}
-
-.main-content .search-results div,
-.main-content .short-info .a  {
-	border: 1px solid blue;
-	width: 80%;
-	margin: auto;
 }
 
 .settings-icon,
@@ -69,6 +52,50 @@ body {
 }
 
 .navigation-button a {
-	text-decoration: none;
+	padding: 15px;
+}
+
+.navigation-button a,
+.bottom-navigation p {
 	color: white;
+}
+
+.navigation-button a,
+.learn-more a {
+	text-transform: uppercase;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.main-content {
+	border: 3px solid black;
+	width: 80%;
+	margin: auto;
+}
+
+.main-content .search-results,
+.main-content .short-info {
+	border: 1px solid red;
+	width: 45%;
+	margin: auto;
+}
+
+.main-content .search-results div,
+.main-content .short-info .no-idea-how-to-name-that  {
+	border: 1px solid blue;
+	width: 80%;
+	margin: auto;
+}
+
+.main-content .short-info {
+	position: fixed;
+}
+
+.description {
+	width: 50%;
+	font-size: 14px;
+}
+
+.bottom-navigation {
+	background-color: rgb(33, 39, 107);
 }
