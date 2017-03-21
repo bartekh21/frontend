@@ -1,133 +1,100 @@
 body {
-		font-family: Arial;
-		margin: 0;
-		padding: 0;
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
 }
 
 .wrapper {
 	width: 100%;
+	margin: auto;
 }
 
-
 .section {
-	width: 100%;
+	width: 80%;
 	margin: auto;
-	position: relative;
 }
 
 .page-header {
-	height: 300px;
 	background-color: rgb(104, 242, 206);
+	height: 220px;
 }
 
-.settings-icon,
-.application-icon,
-.account-icon,
-.navigation-bar .site-navigation ul,
-.navigation-button,
-.main-content .search-results,
-.main-content .short-info,
-.results-amount,
-.results-amount p {
+.page-header .settings-bar .settings-icon,
+.page-header .settings-bar .application-icon,
+.page-header .settings-bar .account-icon,
+.navigation-bar .section .site-navigation ul,
+.navigation-bar .section .site-navigation ul li,
+.navigation-bar .section .results-amount,
+.navigation-bar .section .results-amount p {
 	display: inline-block;
+	padding: 0;
 }
 
-.settings-icon,
-.application-icon,
-.account-icon {
+.page-header .settings-bar {
+	position: absolute;
+	right: 5%;
+	top: 1%;
+}
+
+.page-header .settings-bar .settings-icon,
+.page-header .settings-bar .application-icon,
+.page-header .settings-bar .account-icon {
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
-.settings-bar {
+.page-header .section .search-input {
 	position: absolute;
-	right: 5%;
+	top: 15%;
 }
 
-.search {
-	position: absolute;
-	bottom: 25%;
-	left: 15%;
-}
-.search input {
+.page-header .section .search-input input {
 	width: 400px;
 	height: 40px;
 	border-style: none;
 	font-size: 20px;
 	padding-left: 5%;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px #888888;
 }
 
 .navigation-bar {
 	height: 50px;
 	background-color: rgb(33, 39, 107);
-	bottom: 0%;
 }
 
-.navigation-button a {
-	padding: 15px;
+.navigation-bar .section .site-navigation ul {
+	list-style: none;
 }
-
-.navigation-button a,
-.bottom-navigation a,
-.learn-more a,
-.bottom-navigation h1 {
+.navigation-bar .section .site-navigation ul li a {
 	text-decoration: none;
-}
-
-.navigation-button a,
-.bottom-navigation a,
-.bottom-navigation h1 {
-	color: white;
-}
-.results-amount {
-	float: right;
-	padding-right: 5%;
-	color: white;
-}
-
-.navigation-button a,
-.learn-more a {
 	text-transform: uppercase;
-	font-size: 14px;
+}
+.navigation-bar .section .site-navigation ul li a:hover {
+	color: #FFF;
 }
 
-.main-content {
-	border: 3px solid black;
-	width: 80%;
-	margin: auto;
+.navigation-bar .section .site-navigation ul li {
+	padding-right: 40px;
+}
+.navigation-bar .section .site-navigation ul li:last-child {
+	padding: 0;
 }
 
-.main-content .search-results {
-	width: 50%;
-	height: 100%;
-	margin: auto;
+.navigation-bar .section .results-amount {
+	float: right;
 }
 
-.main-content .search-results div,
-.main-content .short-info .no-idea-how-to-name-that  {
-	border-style: groove;
-	width: 80%;
-	margin: auto;
+.navigation-bar .section .site-navigation ul li a,
+.navigation-bar .section .results-amount p {
+	font-size: 12px;
 }
 
-.main-content .short-info {
-	position: fixed;
-	width: 30%;
+.navigation-bar .section .results-amount p:first-child {
+	color: #FFF;
 }
 
-.description {
-	width: 70%;
-	font-size: 14px;
-}
-
-.bottom-navigation {
-	background-color: rgb(33, 39, 107);
-}
-.bottom-navigation h1 {
-	margin: auto;
-	height: 50px;
-	font-size: 16px;
-}
-.bottom-navigation p {
-	font-size: 10px;
+.navigation-bar .section .site-navigation ul li a,
+.navigation-bar .section .results-amount p:last-child {
+	color: #C2C2C2;
 }
