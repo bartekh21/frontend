@@ -22,6 +22,7 @@ body {
 .page-header .settings-bar .settings-icon,
 .page-header .settings-bar .application-icon,
 .page-header .settings-bar .account-icon,
+.navigation-bar .section .site-navigation,
 .navigation-bar .section .site-navigation ul,
 .navigation-bar .section .site-navigation ul li,
 .navigation-bar .section .results-amount,
@@ -117,6 +118,7 @@ body {
 
 .main-content .section .short-info {
 	width: 25em;
+	margin-top: 5%;
 	position: fixed;
 	padding: 1em;
 	box-shadow: 0px 2px 2px #888888;
@@ -138,7 +140,14 @@ body {
 	background-color: rgb(33, 39, 107);
 }
 
+.bottom-navigation div {
+	width: 20em;
+	position: relative;
+	left: 22em;
+}
+
 .bottom-navigation div h1 {
+	margin-bottom: 0;
 	color: #FFF;
 }
 
@@ -149,4 +158,11 @@ body {
 
 .bottom-navigation div p a:active {
 	color: red;
+}
+
+.bottom-navigation div p {
+    margin: 0;
+    position: relative;
+    left: 1.8em;
+    letter-spacing: 0.2em;
 }
