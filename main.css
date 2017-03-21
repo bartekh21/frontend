@@ -1,5 +1,5 @@
 body {
-	font-family: Arial;
+	font-family: Arial, Tahoma, sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -25,7 +25,9 @@ body {
 .navigation-bar .section .site-navigation ul,
 .navigation-bar .section .site-navigation ul li,
 .navigation-bar .section .results-amount,
-.navigation-bar .section .results-amount p {
+.navigation-bar .section .results-amount p,
+.main-content .section .search-results,
+.main-content .section .short-info {
 	display: inline-block;
 	padding: 0;
 }
@@ -44,8 +46,8 @@ body {
 }
 
 .page-header .section .search-input {
-	position: absolute;
-	top: 15%;
+	position: relative;
+	top: 9em;
 }
 
 .page-header .section .search-input input {
@@ -53,8 +55,8 @@ body {
 	height: 40px;
 	border-style: none;
 	font-size: 20px;
-	padding-left: 5%;
-	border-radius: 5px;
+	padding-left: 1%;
+	border-radius: 3px;
 	box-shadow: 0px 2px 2px #888888;
 }
 
@@ -66,10 +68,18 @@ body {
 .navigation-bar .section .site-navigation ul {
 	list-style: none;
 }
+
+.main-content .section .search-results div a,
+.main-content .section .short-info .learn-more a,
 .navigation-bar .section .site-navigation ul li a {
 	text-decoration: none;
+}
+
+.main-content .section .short-info .learn-more a,
+.navigation-bar .section .site-navigation ul li a {
 	text-transform: uppercase;
 }
+
 .navigation-bar .section .site-navigation ul li a:hover {
 	color: #FFF;
 }
@@ -97,4 +107,46 @@ body {
 .navigation-bar .section .site-navigation ul li a,
 .navigation-bar .section .results-amount p:last-child {
 	color: #C2C2C2;
+}
+
+/* main content */
+
+.main-content .section .search-results {
+	width: 48%;
+}
+
+.main-content .section .short-info {
+	width: 25em;
+	position: fixed;
+	padding: 1em;
+	box-shadow: 0px 2px 2px #888888;
+}
+
+.main-content .section .search-results div {
+	height: 8em;
+	border-bottom: 1px solid #C2C2C2;
+	width: 80%;
+}
+
+.main-content .section .short-info .description {
+	width: 100%;
+}
+
+/* bottom navigation */
+
+.bottom-navigation {
+	background-color: rgb(33, 39, 107);
+}
+
+.bottom-navigation div h1 {
+	color: #FFF;
+}
+
+.bottom-navigation div p a {
+	text-decoration: none;
+	color: #C2C2C2;
+}
+
+.bottom-navigation div p a:active {
+	color: red;
 }
