@@ -5,7 +5,7 @@ body {
 }
 
 .wrapper {
-	width: 100%;
+	width: 1600px;
 	margin: auto;
 }
 
@@ -35,7 +35,7 @@ body {
 
 .page-header .settings-bar {
 	position: absolute;
-	right: 5%;
+	right: 15%;
 	top: 1%;
 }
 
@@ -52,8 +52,9 @@ body {
 }
 
 .page-header .section .search-input input {
-	width: 400px;
+	width: 500px;
 	height: 40px;
+    box-sizing: border-box;
 	border-style: none;
 	font-size: 20px;
 	padding-left: 1%;
@@ -94,6 +95,7 @@ body {
 
 .navigation-bar .section .results-amount {
 	float: right;
+	margin-top: 0.5%;
 }
 
 .navigation-bar .section .site-navigation ul li a,
@@ -118,18 +120,46 @@ body {
 
 .main-content .section .short-info {
 	width: 25em;
-	margin-top: 5%;
+	margin-top: 2%;
 	position: fixed;
-	padding: 1em;
+	right: 16%;
 	box-shadow: 0px 2px 2px #888888;
 }
 
 .main-content .section .search-results div {
 	margin-top: 3em;
-	padding-bottom: 2em;
+	margin-bottom: 3em;
+	padding-bottom: 4em;
 	height: 8em;
 	border-bottom: 1px solid #C2C2C2;
-	width: 80%;
+	width: 500px;
+}
+
+.main-content .section .short-info .picture {
+	background-image: url("http://morainelake.com/wp-content/uploads/2013/04/Moraine-Lake-Lodge-Rocky-Mountains-Banff-National-Park-Home-Page.jpg");
+	background-size: 100%;
+	height: 200px;
+    background-repeat: no-repeat;
+}
+
+.main-content .section .short-info .description,
+.main-content .section .short-info .learn-more {
+	box-sizing: border-box;
+	padding: 1em;
+}
+
+.main-content .section .short-info .localization {
+	border: 2px solid rgb(104, 242, 206);
+}
+
+.main-content .section .short-info .picture h1,
+.main-content .section .short-info .picture h4 {
+	margin: 0;
+	color: #FFF;
+	font-weight: 100;
+	position: relative;
+	top: 50%;
+	left: 5%;
 }
 
 .main-content .section .short-info .description {
@@ -146,7 +176,8 @@ body {
 .bottom-navigation div {
 	width: 20em;
 	position: relative;
-	left: 22em;
+	left: 18em;
+	top: 1.8em;
 }
 
 .bottom-navigation div h1 {
@@ -170,21 +201,25 @@ body {
     letter-spacing: 0.2em;
 }
 
-.button {
-	width: 3em;
-	height: 3em;
-	border: 1px solid lightblue;
-	border-radius: 100px;
-	background-color: lightblue;
-	position: relative;
-	left: 50%;
-	bottom: 7.9em;
+.bottom-navigation div .button {
+	position: absolute;
+    top: -3.5em;
+    left: 30em;
 }
 
-.button p {
-	font-size: 26px;
-	color: #FFF;
-	position: relative;
-	bottom: .67em;
-	left: .67em;
+.bottom-navigation div .button button {
+    background-color: rgb(104, 242, 206);
+    border: none;
+    border-radius: 100px;
+    width: 2em;
+    height: 2em;
+    color: white;
+    font-size: 26px;
+    outline: none;
+    box-shadow: 0px 1px 2px #888888;
 }
+
+/*.button button:active {
+	border: 0;
+	background-color: blue;
+}*/
