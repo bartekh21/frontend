@@ -125,6 +125,8 @@ body {
 }
 
 .main-content .section .search-results div {
+	margin-top: 3em;
+	padding-bottom: 2em;
 	height: 8em;
 	border-bottom: 1px solid #C2C2C2;
 	width: 80%;
@@ -137,6 +139,7 @@ body {
 /* bottom navigation */
 
 .bottom-navigation {
+	height: 100px;
 	background-color: rgb(33, 39, 107);
 }
 
@@ -165,4 +168,23 @@ body {
     position: relative;
     left: 1.8em;
     letter-spacing: 0.2em;
+}
+
+.button {
+	width: 3em;
+	height: 3em;
+	border: 1px solid lightblue;
+	border-radius: 100px;
+	background-color: lightblue;
+	position: relative;
+	left: 50%;
+	bottom: 7.9em;
+}
+
+.button p {
+	font-size: 26px;
+	color: #FFF;
+	position: relative;
+	bottom: .67em;
+	left: .67em;
 }
