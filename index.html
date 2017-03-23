@@ -6,25 +6,25 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	<div class="wrapper">
-		<div class="page-header">
-			<!-- setting icons -->
-			<div class="settings-bar">
-				<p class="settings-icon">Set</p>
-				<p class="application-icon">App</p>
-				<p class="account-icon">Acc</p>
-			</div>
-			<!-- search input -->
-			<div class="section">
-				<div class="search-input">
-					<input type="text" id="googlesearch" name="googlesearch" value="Morain lake sunset" placeholder="Wyszukaj...">
+		<header>
+			<div class="content">
+
+				<!-- setting icons -->
+				<div class="settings-bar">
+					<p class="settings-icon">Set</p>
+					<p class="application-icon">App</p>
+					<p class="account-icon">Acc</p>
 				</div>
-			</div>
-		</div>
+				<!-- search input -->
+					<div class="search-input">
+						<input type="text" id="googlesearch" name="googlesearch" value="Morain lake sunset" placeholder="Wyszukaj...">
+					</div>
+				</div>
+		</header>
 		<!-- site navigation section-->
-		<div class="navigation-bar">
-			<div class="section">
-				<nav class="site-navigation">
+		<nav class="navigation-bar">
+			<div class="content">
+				<div class="site-navigation">
 					<ul>
 						<li class="navigation-button">
 							<a href="web.html">Web</a>
@@ -45,18 +45,18 @@
 							<a href="search-tools.html">Search tools</a>
 						</li>
 					</ul>
-				</nav>
+				</div>
 				<div class="results-amount">
 					<p>About 997,666 results</p>
 					<p>0.69 seconds</p>
 				</div>
-			</div>
+			</nav>
 		</div>
 
 
 		<div class="main-content">
 			<!-- main content section -->
-			<div class="section">
+			<div class="content">
 				<div class="search-results">
 					<div>
 						<a href="http://wikipedia.com" target="_blank"><h1>Moraine lake - Wikipedia</h1></a>
@@ -104,28 +104,28 @@
 					</div>
 					<div class="localization">
 						<div id="map"></div>
-							<script>
-      							function initMap() {
-        							var uluru = {lat: 51.321742, lng: -116.186005};
-        							var map = new google.maps.Map(document.getElementById('map'), {
-          								zoom: 13,
-          								center: uluru
-        							});
-        							var marker = new google.maps.Marker({
-          								position: uluru,
-          								map: map
-        							});
-      							}
-    						</script>
-    						<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwcW-QmXj4xeA4bUbLKlzTfcqDdELMbLw&callback=initMap"></script>
-						</div>
+						<script>
+						function initMap() {
+							var uluru = {lat: 51.321742, lng: -116.186005};
+							var map = new google.maps.Map(document.getElementById('map'), {
+								zoom: 13,
+								center: uluru
+							});
+							var marker = new google.maps.Marker({
+								position: uluru,
+								map: map
+							});
+						}
+						</script>
+						<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwcW-QmXj4xeA4bUbLKlzTfcqDdELMbLw&callback=initMap"></script>
+					</div>
 					<div class="learn-more">
 						<a href="learn-more.html">Learn more</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bottom-navigation">
+		<footer>
 			<!-- bottom navigation -->
 			<div>
 				<h1>Gooooooooogle</h1>
@@ -144,7 +144,6 @@
 					<button type="button" onclick="alert('no elo')">></button>
 				</div>
 			</div>
-		</div>
-	</div>
+		</footer
 </body>
 </html>
