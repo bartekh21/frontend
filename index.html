@@ -90,8 +90,22 @@
 						<p><strong>Area:</strong> 50 ha</p>
 					</div>
 					<div class="localization">
-						<p>Localization map</p>
-					</div>
+						<div id="map"></div>
+							<script>
+      							function initMap() {
+        							var uluru = {lat: 51.321742, lng: -116.186005};
+        							var map = new google.maps.Map(document.getElementById('map'), {
+          								zoom: 13,
+          								center: uluru
+        							});
+        							var marker = new google.maps.Marker({
+          								position: uluru,
+          								map: map
+        							});
+      							}
+    						</script>
+    						<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwcW-QmXj4xeA4bUbLKlzTfcqDdELMbLw&callback=initMap"></script>
+						</div>
 					<div class="learn-more">
 						<a href="learn-more.html">Learn more</a>
 					</div>
