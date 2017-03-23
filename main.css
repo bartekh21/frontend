@@ -166,6 +166,11 @@ body {
 	width: 100%;
 }
 
+.main-content .section .localization #map {
+	height: 150px;
+    width: 100%;
+}
+
 /* bottom navigation */
 
 .bottom-navigation {
@@ -195,29 +200,28 @@ body {
 }
 
 .bottom-navigation div p {
-    	margin: 0;
-    	position: relative;
-    	left: 1.8em;
-    	letter-spacing: 0.2em;
+    margin: 0;
+    position: relative;
+    left: 1.8em;
+    letter-spacing: 0.2em;
 }
 
 .bottom-navigation div .button {
 	position: absolute;
-    	top: -3.5em;
-    	left: 30em;
+    top: -3.5em;
+    left: 30em;
 }
 
 .bottom-navigation div .button button {
-    	background-color: rgb(104, 242, 206);
-    	border: none;
-    	border-radius: 100px;
-   	width: 2em;
-   	height: 2em;
-   	color: white;
-    	font-size: 26px;
-	outline: none;
-    	box-shadow: 0px 1px 2px #888888;
-	cursor: pointer;
+    background-color: rgb(104, 242, 206);
+    border: none;
+    border-radius: 100px;
+    width: 2em;
+    height: 2em;
+    color: white;
+    font-size: 26px;
+    outline: none;
+    box-shadow: 0px 1px 2px #888888;
 }
 
 /*.button button:active {
