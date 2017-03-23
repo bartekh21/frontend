@@ -148,10 +148,6 @@ body {
 	padding: 1em;
 }
 
-.main-content .section .short-info .localization {
-	border: 2px solid rgb(104, 242, 206);
-}
-
 .main-content .section .short-info .picture h1,
 .main-content .section .short-info .picture h4 {
 	margin: 0;
@@ -166,7 +162,7 @@ body {
 	width: 100%;
 }
 
-.main-content .section .localization #map {
+.main-content .section .short-info .localization #map {
 	height: 150px;
     width: 100%;
 }
