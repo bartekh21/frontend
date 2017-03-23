@@ -6,54 +6,55 @@ body {
 	padding: 0;
 }
 
-.wrapper {
+.content {
 	width: 1600px;
 	margin: auto;
+		position: relative;
 }
 
-.section {
+ {
 	width: 80%;
 	margin: auto;
 }
 
-.page-header {
+header {
 	background-color: rgb(104, 242, 206);
 	height: 220px;
 }
 
-.page-header .settings-bar .settings-icon,
-.page-header .settings-bar .application-icon,
-.page-header .settings-bar .account-icon,
-.navigation-bar .section .site-navigation,
-.navigation-bar .section .site-navigation ul,
-.navigation-bar .section .site-navigation ul li,
-.navigation-bar .section .results-amount,
-.navigation-bar .section .results-amount p,
-.main-content .section .search-results,
-.main-content .section .short-info {
+header .settings-bar .settings-icon,
+header .settings-bar .application-icon,
+header .settings-bar .account-icon,
+.navigation-bar  .site-navigation,
+.navigation-bar  .site-navigation ul,
+.navigation-bar  .site-navigation ul li,
+.navigation-bar  .results-amount,
+.navigation-bar  .results-amount p,
+.main-content  .search-results,
+.main-content  .short-info {
 	display: inline-block;
 	padding: 0;
 }
 
-.page-header .settings-bar {
+header .settings-bar {
 	position: absolute;
 	right: 15%;
 	top: 1%;
 }
 
-.page-header .settings-bar .settings-icon,
-.page-header .settings-bar .application-icon,
-.page-header .settings-bar .account-icon {
+header .settings-bar .settings-icon,
+header .settings-bar .application-icon,
+header .settings-bar .account-icon {
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
-.page-header .section .search-input {
+header  .search-input {
 	position: relative;
 	top: 9em;
 }
 
-.page-header .section .search-input input {
+header  .search-input input {
 	width: 555px;
 	height: 40px;
     box-sizing: border-box;
@@ -69,63 +70,63 @@ body {
 	background-color: rgb(33, 39, 107);
 }
 
-.navigation-bar .section .site-navigation {
+.navigation-bar  .site-navigation {
 	width: 555px;
 }
 
-.navigation-bar .section .site-navigation ul {
+.navigation-bar  .site-navigation ul {
 	list-style: none;
 }
 
-.main-content .section .search-results div a,
-.main-content .section .short-info .learn-more a,
-.navigation-bar .section .site-navigation ul li a {
+.main-content  .search-results div a,
+.main-content  .short-info .learn-more a,
+.navigation-bar  .site-navigation ul li a {
 	text-decoration: none;
 }
 
-.main-content .section .short-info .learn-more a,
-.navigation-bar .section .site-navigation ul li a {
+.main-content  .short-info .learn-more a,
+.navigation-bar  .site-navigation ul li a {
 	text-transform: uppercase;
 }
 
-.navigation-bar .section .site-navigation ul li a:hover {
+.navigation-bar  .site-navigation ul li a:hover {
 	color: #FFF;
 }
 
-.navigation-bar .section .site-navigation ul li {
+.navigation-bar  .site-navigation ul li {
 	padding-right: 50px;
 }
-.navigation-bar .section .site-navigation ul li:last-child {
+.navigation-bar  .site-navigation ul li:last-child {
 	padding: 0;
 }
 
-.navigation-bar .section .results-amount {
+.navigation-bar  .results-amount {
 	float: right;
 	margin-top: 0.5%;
 }
 
-.navigation-bar .section .site-navigation ul li a,
-.navigation-bar .section .results-amount p, 
-.main-content .section .short-info .learn-more {
+.navigation-bar  .site-navigation ul li a,
+.navigation-bar  .results-amount p,
+.main-content  .short-info .learn-more {
 	font-size: 12px;
 }
 
-.navigation-bar .section .results-amount p:first-child {
+.navigation-bar  .results-amount p:first-child {
 	color: #FFF;
 }
 
-.navigation-bar .section .site-navigation ul li a,
-.navigation-bar .section .results-amount p:last-child {
+.navigation-bar  .site-navigation ul li a,
+.navigation-bar  .results-amount p:last-child {
 	color: #C2C2C2;
 }
 
 /* main content */
 
-.main-content .section .search-results {
+.main-content  .search-results {
 	width: 48%;
 }
 
-.main-content .section .search-results div {
+.main-content  .search-results div {
 	margin-top: 3em;
 	margin-bottom: 3em;
 	padding-bottom: 4em;
@@ -135,12 +136,12 @@ body {
 }
 
 
-.main-content .section .search-results .miniature-picture {
+.main-content  .search-results .miniature-picture {
 	height: 90px;
 	display: inline;
 }
 
-.main-content .section .short-info {
+.main-content  .short-info {
 	width: 25em;
 	margin-top: 2%;
 	position: fixed;
@@ -148,15 +149,15 @@ body {
 	box-shadow: 0px 2px 2px #888888;
 }
 
-.main-content .section .short-info .picture {
+.main-content  .short-info .picture {
 	background-image: url("http://morainelake.com/wp-content/uploads/2013/04/Moraine-Lake-Lodge-Rocky-Mountains-Banff-National-Park-Home-Page.jpg");
 	background-size: 100%;
 	height: 180px;
     background-repeat: no-repeat;
 }
 
-.main-content .section .short-info .description,
-.main-content .section .short-info .learn-more {
+.main-content  .short-info .description,
+.main-content  .short-info .learn-more {
 	box-sizing: border-box;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
@@ -164,14 +165,14 @@ body {
 	padding-bottom: .5em;
 }
 
-.main-content .section .short-info .learn-more {
+.main-content  .short-info .learn-more {
 	box-sizing: border-box;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 }
 
-.main-content .section .short-info .picture h1,
-.main-content .section .short-info .picture h4 {
+.main-content  .short-info .picture h1,
+.main-content  .short-info .picture h4 {
 	margin: 0;
 	color: #FFF;
 	font-weight: 100;
@@ -180,57 +181,57 @@ body {
 	left: 5%;
 }
 
-.main-content .section .short-info .description {
+.main-content  .short-info .description {
 	width: 100%;
 }
 
-.main-content .section .short-info .localization #map {
+.main-content  .short-info .localization #map {
 	height: 150px;
     width: 100%;
 }
 
 /* bottom navigation */
 
-.bottom-navigation {
+footer {
 	height: 100px;
 	background-color: rgb(33, 39, 107);
 }
 
-.bottom-navigation div {
+footer div {
 	width: 20em;
 	position: relative;
 	left: 18em;
 	top: 1.8em;
 }
 
-.bottom-navigation div h1 {
+footer div h1 {
 	margin-bottom: 0;
 	color: #FFF;
 }
 
-.bottom-navigation div p a {
+footer div p a {
 	text-decoration: none;
 	color: #C2C2C2;
 }
 
-.bottom-navigation div p a:active {
+footer div p a:active {
 	color: red;
 }
 
-.bottom-navigation div p {
+footer div p {
     margin: 0;
     position: relative;
     left: 1.8em;
     letter-spacing: 0.2em;
 }
 
-.bottom-navigation div .button {
+footer div .button {
 	position: absolute;
     top: -3.5em;
     left: 30em;
 }
 
-.bottom-navigation div .button button {
+footer div .button button {
     background-color: rgb(104, 242, 206);
     border: none;
     border-radius: 100px;
