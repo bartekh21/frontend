@@ -191,45 +191,46 @@ header  .search-input input {
 /* bottom navigation */
 
 footer {
+	position: relative;
 	height: 100px;
 	background-color: rgb(33, 39, 107);
 }
 
-footer div {
+footer .bottom-navigation {
 	width: 20em;
-	position: relative;
+	position: absolute;
 	left: 22em;
-	top: 1.8em;
 }
 
-footer div h1 {
+footer .bottom-navigation h1 {
 	margin-bottom: 0;
 	color: #FFF;
 }
 
-footer div p a {
+footer .bottom-navigation p a {
 	text-decoration: none;
 	color: #C2C2C2;
 }
 
-footer div p a:active {
+footer .bottom-navigation p a:active {
 	color: red;
 }
 
-footer div p {
+footer .bottom-navigation p {
     margin: 0;
     position: relative;
     left: 1.8em;
     letter-spacing: 0.2em;
 }
 
-footer div .button {
-	position: absolute;
-    top: -3.5em;
-    left: 36em;
+footer .button {
+		position: absolute;
+    top: -26px;
+    left: 50%;
+		margin-left: 26px;
 }
 
-footer div .button button {
+footer .button button {
     background-color: rgb(104, 242, 206);
     border: none;
     border-radius: 100px;
