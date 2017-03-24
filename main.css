@@ -37,9 +37,7 @@ header .settings-bar .account-icon,
 }
 
 header .settings-bar {
-	position: absolute;
-	right: 15%;
-	top: 1%;
+	float: right;
 }
 
 header .settings-bar .settings-icon,
@@ -200,7 +198,7 @@ footer {
 footer div {
 	width: 20em;
 	position: relative;
-	left: 18em;
+	left: 22em;
 	top: 1.8em;
 }
 
@@ -228,7 +226,7 @@ footer div p {
 footer div .button {
 	position: absolute;
     top: -3.5em;
-    left: 30em;
+    left: 36em;
 }
 
 footer div .button button {
