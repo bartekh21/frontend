@@ -192,14 +192,14 @@ header  .search-input input {
 
 footer {
 	position: relative;
-	height: 100px;
+	height: 150px;
 	background-color: rgb(33, 39, 107);
 }
 
 footer .bottom-navigation {
 	width: 20em;
 	position: absolute;
-	left: 22em;
+	left: 15%;
 }
 
 footer .bottom-navigation h1 {
