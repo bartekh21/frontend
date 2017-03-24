@@ -197,9 +197,9 @@ footer {
 }
 
 footer .bottom-navigation {
-	width: 20em;
 	position: absolute;
 	left: 15%;
+	bottom: -100px;
 }
 
 footer .bottom-navigation h1 {
