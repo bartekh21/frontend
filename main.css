@@ -219,8 +219,8 @@ footer .bottom-navigation p a:active {
 footer .bottom-navigation p {
     margin: 0;
     position: relative;
-    left: 1.8em;
-    letter-spacing: 0.2em;
+    left: 28px;
+    letter-spacing: 2.4px;
 }
 
 footer .button {
