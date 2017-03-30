@@ -19,8 +19,8 @@ body {
 
 header {
 	background-image: url("sea-mountain-sun-sky-vector-wallpaper.jpg");
-	background-position-y: center;
-    	background-size: 100% 750px;
+	background-size: cover;
+	background-position-y: 53%;
 	height: 220px;
 }
 
