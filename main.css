@@ -67,7 +67,7 @@ header  .search-input input {
 
 .navigation-bar {
 	height: 50px;
-	background-color: #1E6944;
+	background-color: #70196C;
 }
 
 .navigation-bar  .site-navigation {
@@ -212,7 +212,7 @@ header  .search-input input {
 footer {
 	position: relative;
 	height: 150px;
-	background-color: #1E6944;
+	background-color: #70196C;
 }
 
 footer .bottom-navigation {
