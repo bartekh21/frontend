@@ -18,7 +18,7 @@ body {
 }
 
 header {
-	background-color: rgb(104, 242, 206);
+	background-image: url("congruent_pentagon.png");
 	height: 220px;
 }
 
@@ -65,7 +65,7 @@ header  .search-input input {
 
 .navigation-bar {
 	height: 50px;
-	background-color: rgb(33, 39, 107);
+	background-color: #1E6944;
 }
 
 .navigation-bar  .site-navigation {
@@ -124,13 +124,16 @@ header  .search-input input {
 	width: 48%;
 }
 
-.main-content  .search-results div {
-	margin-top: 3em;
-	margin-bottom: 3em;
-	padding-bottom: 4em;
+.main-content  .search-results .result {
+	margin-top: 80px;
+	padding-bottom: 90px;
 	height: 8em;
 	border-bottom: 1px solid #C2C2C2;
 	width: 555px;
+}
+
+.main-content  .search-results .result:last-child {
+	margin-bottom: 90px;
 }
 
 
@@ -140,52 +143,66 @@ header  .search-input input {
 }
 
 .main-content  .short-info {
-	width: 25em;
-	margin-top: 2%;
-	position: absolute;
-	right: 16%;
+	width: 650px;
+	margin-top: 80px;
+	float: right;
 	box-shadow: 0px 2px 2px #888888;
 }
 
 .main-content  .short-info .picture {
 	background-image: url("http://morainelake.com/wp-content/uploads/2013/04/Moraine-Lake-Lodge-Rocky-Mountains-Banff-National-Park-Home-Page.jpg");
 	background-size: 100%;
-	height: 180px;
-    background-repeat: no-repeat;
+	height: 300px;
+  background-repeat: no-repeat;
 }
 
 .main-content  .short-info .description,
 .main-content  .short-info .learn-more {
 	box-sizing: border-box;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
-	padding-top: .5em;
-	padding-bottom: .5em;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
-.main-content  .short-info .learn-more {
-	box-sizing: border-box;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+.main-content  .short-info .description {
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 .main-content  .short-info .picture h1,
 .main-content  .short-info .picture h4 {
 	margin: 0;
 	color: #FFF;
-	font-weight: 100;
 	position: relative;
-	top: 55%;
+	top: 60%;
 	left: 5%;
+}
+
+.main-content  .short-info .picture h1 {
+	font-size: 40px;
+		font-weight: 300;
+}
+
+.main-content  .short-info .picture h4 {
+	font-size: 24px;
+	font-weight: 100;
 }
 
 .main-content  .short-info .description {
 	width: 100%;
 }
+.main-content  .short-info .description p {
+	font-size: 26px;
+}
 
 .main-content  .short-info .localization #map {
-	height: 150px;
+	height: 200px;
     width: 100%;
+}
+
+.main-content  .short-info .learn-more {
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* bottom navigation */
@@ -193,7 +210,7 @@ header  .search-input input {
 footer {
 	position: relative;
 	height: 150px;
-	background-color: rgb(33, 39, 107);
+	background-color: #1E6944;
 }
 
 footer .bottom-navigation {
@@ -231,12 +248,12 @@ footer .button {
 }
 
 footer .button button {
-    background-color: rgb(104, 242, 206);
+    background-color: #477AE8;
     border: none;
     border-radius: 100px;
     width: 2em;
     height: 2em;
-    color: white;
+    color: #FFF;
     font-size: 26px;
     outline: none;
     box-shadow: 0px 1px 2px #888888;
