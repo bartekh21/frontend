@@ -6,21 +6,21 @@ body {
 	padding: 0;
 }
 
+.wrapper {
+	width: 100%;
+}
+
 .content {
 	width: 1600px;
 	margin: auto;
-		position: relative;
+	position: relative;
 }
 
- {
-	width: 80%;
-	margin: auto;
-}
 
 header {
-	background-image: url("sea-mountain-sun-sky-vector-wallpaper.jpg");
+	background-image: url("blue_mountain_2.jpg");
 	background-size: cover;
-	background-position-y: 53%;
+	background-position-y: 42%;
 	height: 220px;
 }
 
@@ -43,10 +43,25 @@ header .settings-bar {
 }
 
 header .settings-bar .settings-icon,
-header .settings-bar .application-icon,
-header .settings-bar .account-icon {
-	padding-left: 10px;
-	padding-right: 10px;
+header .settings-bar .apps-icon,
+header .settings-bar .mail-icon {
+	position: absolute;
+	top: 40px;
+	height: 20px;
+}
+
+header .settings-bar .settings-icon {
+	right: 185px;
+}
+
+header .settings-bar .apps-icon {
+	right: 143px;
+}
+
+header .settings-bar .mail-icon {
+	right: -75px;
+	font-weight: 500;
+	margin: 0;
 }
 
 header  .search-input {
@@ -55,9 +70,9 @@ header  .search-input {
 }
 
 header  .search-input input {
-	width: 555px;
-	height: 40px;
-    box-sizing: border-box;
+	width: 768px;
+	height: 50px;
+	box-sizing: border-box;
 	border-style: none;
 	font-size: 20px;
 	padding-left: 1%;
@@ -65,13 +80,18 @@ header  .search-input input {
 	box-shadow: 0px 2px 2px #888888;
 }
 
+.navigation-bar,
+footer {
+	background-color: #2B487D;
+}
+
 .navigation-bar {
 	height: 50px;
-	background-color: #70196C;
+	background-color: #2B487D;
 }
 
 .navigation-bar  .site-navigation {
-	width: 555px;
+	width: 768px;
 }
 
 .navigation-bar  .site-navigation ul {
@@ -94,7 +114,7 @@ header  .search-input input {
 }
 
 .navigation-bar  .site-navigation ul li {
-	padding-right: 50px;
+	padding-right: 88.6px;
 }
 .navigation-bar  .site-navigation ul li:last-child {
 	padding: 0;
@@ -102,13 +122,14 @@ header  .search-input input {
 
 .navigation-bar  .results-amount {
 	float: right;
-	margin-top: 0.5%;
+	margin-top: 15.5px;
 }
 
 .navigation-bar  .site-navigation ul li a,
 .navigation-bar  .results-amount p,
 .main-content  .short-info .learn-more {
-	font-size: 12px;
+	font-size: 14px;
+	margin: 0;
 }
 
 .navigation-bar  .results-amount p:first-child {
@@ -131,7 +152,7 @@ header  .search-input input {
 	padding-bottom: 90px;
 	height: 8em;
 	border-bottom: 1px solid #C2C2C2;
-	width: 555px;
+	width: 100%;
 }
 
 .main-content  .search-results .result:last-child {
@@ -140,7 +161,7 @@ header  .search-input input {
 
 
 .main-content  .search-results .miniature-picture {
-	height: 90px;
+	height: 126px;
 	display: inline;
 }
 
@@ -155,7 +176,7 @@ header  .search-input input {
 	background-image: url("http://morainelake.com/wp-content/uploads/2013/04/Moraine-Lake-Lodge-Rocky-Mountains-Banff-National-Park-Home-Page.jpg");
 	background-size: 100%;
 	height: 300px;
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 
 .main-content  .short-info .description,
@@ -181,7 +202,7 @@ header  .search-input input {
 
 .main-content  .short-info .picture h1 {
 	font-size: 40px;
-		font-weight: 300;
+	font-weight: 300;
 }
 
 .main-content  .short-info .picture h4 {
@@ -198,7 +219,7 @@ header  .search-input input {
 
 .main-content  .short-info .localization #map {
 	height: 200px;
-    width: 100%;
+	width: 100%;
 }
 
 .main-content  .short-info .learn-more {
@@ -212,12 +233,11 @@ header  .search-input input {
 footer {
 	position: relative;
 	height: 150px;
-	background-color: #70196C;
 }
 
 footer .bottom-navigation {
 	position: absolute;
-	left: 15%;
+	left: 270px;
 	bottom: -100px;
 }
 
@@ -236,32 +256,28 @@ footer .bottom-navigation p a:active {
 }
 
 footer .bottom-navigation p {
-    margin: 0;
-    position: relative;
-    left: 28px;
-    letter-spacing: 2.4px;
+	margin: 0;
+	position: relative;
+	left: 28px;
+	letter-spacing: 2.4px;
 }
 
 footer .button {
-		position: absolute;
-    top: -26px;
-    left: 50%;
-		margin-left: 26px;
+	position: absolute;
+	top: -26px;
+	left: 50%;
+	margin-left: 26px;
+}
+
+footer .button .button-icon {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
 }
 
 footer .button button {
-    background-color: #477AE8;
-    border: none;
-    border-radius: 100px;
-    width: 2em;
-    height: 2em;
-    color: #FFF;
-    font-size: 26px;
-    outline: none;
-    box-shadow: 0px 1px 2px #888888;
+	background: transparent;
+	border: none !important;
+	font-size: none;
 }
-
-/*.button button:active {
-	border: 0;
-	background-color: blue;
-}*/
