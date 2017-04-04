@@ -87,13 +87,12 @@ footer {
 	background-color: #2B487D;
 }
 
-.navigation-bar {
+.navigation-bar,
+.navigation-bar .site-navigation,
+.navigation-bar .site-navigation ul,
+.navigation-bar .site-navigation ul li {
 	height: 50px;
-	background-color: #2B487D;
-}
-
-.navigation-bar  .site-navigation {
-	width: 800px;
+	margin: 0;
 }
 
 .navigation-bar  .site-navigation ul {
@@ -118,13 +117,12 @@ footer {
 .navigation-bar  .site-navigation ul li a .navigation-button {
 	width: 127px;
 	text-align: center;
-	position: relative;
-	top: -13.5px;
+	height: 31px;
+	margin: 0;
 }
 
 .navigation-bar  .site-navigation ul li .navigation-button:hover{
 	border-bottom: 5px solid #B8378C;
-	padding-bottom: 11.5px;
 }
 
 /*.navigation-bar  .site-navigation ul li:last-child {
@@ -133,7 +131,8 @@ footer {
 
 .navigation-bar  .results-amount {
 	float: right;
-	margin-top: 15.5px;
+	height: 50px;
+	margin: 0;
 }
 
 .navigation-bar  .site-navigation ul li a,
