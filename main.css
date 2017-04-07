@@ -167,6 +167,10 @@ padding-right: 0;
 	color: #C2C2C2;
 }
 
+.navigation-bar  .results-amount p:last-child {
+	padding-left: 20px;
+}
+
 /* main content */
 
 .main-content  .search-results {
