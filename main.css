@@ -74,7 +74,8 @@ header .settings-bar a .arrow-icon {
 
 header  .search-input {
 	position: relative;
-	top: 9em;
+	top: 145px;
+	widows: 800px;
 }
 
 header  .search-input input {
@@ -83,12 +84,18 @@ header  .search-input input {
 	box-sizing: border-box;
 	border-style: none;
 	font-size: 20px;
-	padding-left: 1%;
+	padding-left: 15px;
 	border-radius: 5px;
 	box-shadow: 0px 2px 2px #888888;
-	background-image: url('icons/search.png');
-	background-repeat: no-repeat;
-	background-position: 730px;
+}
+
+header .search-input div {
+	position: relative;
+	width: 20px;
+	display: inline-block;
+	left: -35px;
+	line-height: 50px;
+	vertical-align: middle;
 }
 
 /* navigation bar */
