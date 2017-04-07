@@ -65,9 +65,8 @@ header .settings-bar .mail {
 }
 
 header .settings-bar .mail .arrow-icon {
-	height: 9px;
+	height: 8px;
 	position: relative;
-	top: 1px;
 	left: 10px;
 }
 
