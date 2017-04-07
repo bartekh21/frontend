@@ -76,8 +76,12 @@ header  .search-input input {
 	border-style: none;
 	font-size: 20px;
 	padding-left: 1%;
-	border-radius: 3px;
+	border-radius: 5px;
 	box-shadow: 0px 2px 2px #888888;
+	background-image: url('icons/search.png');
+	background-repeat: no-repeat;
+	background-position: 730px;
+	background-size:
 }
 
 /* navigation bar */
@@ -117,16 +121,28 @@ footer {
 .navigation-bar  .site-navigation ul li a .navigation-button {
 	width: 127px;
 	text-align: center;
-	height: 31px;
+	height: 28px;
 	margin: 0;
+	position: relative;
+	top: 15px;
 }
 
-.navigation-bar  .site-navigation ul li .navigation-button:hover{
+.navigation-bar  .results-amount p,
+.navigation-bar  .site-navigation ul li a .navigation-button {
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	position: relative;
+	top: 0;
+}
+
+.navigation-bar  .site-navigation ul li .navigation-button:hover {
+	box-sizing: border-box;
 	border-bottom: 5px solid #B8378C;
 }
 
 /*.navigation-bar  .site-navigation ul li:last-child {
-	padding-right: 0;
+padding-right: 0;
 }*/
 
 .navigation-bar  .results-amount {
