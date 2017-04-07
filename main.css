@@ -59,15 +59,17 @@ header .settings-bar .apps-icon {
 }
 
 header .settings-bar .mail {
-	right: -85px;
+	right: -75px;
 	font-weight: 500;
 	margin: 0;
 }
 
-header .settings-bar .mail .arrow-icon {
-	height: 8px;
+header .settings-bar a .arrow-icon {
+	display: inline-block;
+	height: 9px;
 	position: relative;
-	left: 10px;
+	top: 40px;
+	right: -100px;
 }
 
 header  .search-input {
@@ -286,6 +288,7 @@ footer .bottom-navigation {
 footer .bottom-navigation h1 {
 	margin-bottom: 0;
 	color: #FFF;
+	font-weight: 100;
 }
 
 footer .bottom-navigation p a {
